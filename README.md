@@ -16,3 +16,13 @@ Trata-se de uma página de apresentação de produtos de uma fábrica de bicicle
 - É interessante usar sempre o Lorem Ipsum em português. Ao escrever o texto final é ideal seguir o número de caracteres que está no Lorem Ipsum do protótipo para manter a definição.
 - Dá pra colocar inclusive imagens com background:url("../img/linhas.svg"); com o *```:after.``` Usando *```position:absolute``` dá pra ajustar essa imagem mais livremente pelo layout.
 
+***Media queries coringas***
+<p> Estilos para tablets <br>
+ <code>@media only screen and (min-width: 768px) and (max-width: 979px) {}</code>
+</p>
+
+<p> 
+ Estilos para smartphones <br>
+ <code>@media only screen and (max-width: 787px) {}</code>
+</p>
+
