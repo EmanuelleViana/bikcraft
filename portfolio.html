@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/portfolio.css" />
     <link rel="stylesheet" href="/css/responsivo.css" />
+    <link rel="stylesheet" href="/css/simple-slide.css" />
+    <script>document.documentElement.classList.add("js")</script>
   </head>
   <body>
     <header class="header">
@@ -34,7 +36,7 @@
       </div>
     </section>
 
-    <section class="container">
+    <section class="container" data-slide="quote">
       <blockquote class="quote_clientes">
         <p>
           No mundo atual, a contínua expansão de nossa atividade cumpre um papel
@@ -42,10 +44,24 @@
         </p>
         <cite>Bárbara Moss</cite>
       </blockquote>
+      <blockquote class="quote_clientes">
+        <p>
+          No mundo atual, a contínua expansão de nossa atividade cumpre um papel
+          essencial na formulação da gestão inovadora da qual fazermos parte.
+        </p>
+        <cite>Bruna</cite>
+      </blockquote>
+      <blockquote class="quote_clientes">
+        <p>
+          No mundo atual, a contínua expansão de nossa atividade cumpre um papel
+          essencial na formulação da gestão inovadora da qual fazermos parte.
+        </p>
+        <cite>Rafael</cite>
+      </blockquote>
     </section>
 
     <section class="portfolio">
-      <div class="container">
+      <div class="container" data-slide="portfolio">
         <ul class="portfolio_lista">
           <li class="grid-8">
             <img src="/img/portfolio/retro.jpg" alt="Bicicleta retro" />
@@ -53,6 +69,18 @@
           <li class="grid-8">
             <img src="/img/portfolio/passeio.jpg" alt="Bicicleta retro" />
           </li>
+          <li class="grid-16">
+            <img src="/img/portfolio/esporte.jpg" alt="Bicicleta esporte" />
+          </li>
+        </ul>
+        <ul class="portfolio_lista">
+          <li class="grid-8">
+            <img src="/img/portfolio/passeio.jpg" alt="Bicicleta retro" />
+          </li>
+          <li class="grid-8">
+            <img src="/img/portfolio/retro.jpg" alt="Bicicleta retro" />
+          </li>
+
           <li class="grid-16">
             <img src="/img/portfolio/esporte.jpg" alt="Bicicleta esporte" />
           </li>
@@ -118,5 +146,7 @@
         </div>
       </div>
     </footer>
+    <script src="./js/simple-slide.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
