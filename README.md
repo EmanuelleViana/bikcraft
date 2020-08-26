@@ -18,18 +18,11 @@ Trata-se de uma página de apresentação de produtos de uma fábrica de bicicle
 
 ***Media queries coringas***
 <p> Estilos para tablets <br>
+ <code>@media only screen and (min-width: 768px) and (max-width: 979px) {}</code>
+</p>
 
- <code>
-@media only screen and (min-width: 768px) and (max-width: 979px) {}
-</code>
- </p>
 <p> 
-   Estilos para smartphones <br>
-
-  <code>
-
-@media only screen and (max-width: 787px) {}
-</code>
-
- </p>
+ Estilos para smartphones <br>
+ <code>@media only screen and (max-width: 787px) {}</code>
+</p>
 
