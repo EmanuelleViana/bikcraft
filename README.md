@@ -24,6 +24,7 @@ O projeto Bikcraft consiste de um website de uma fábrica de bicicletas. Nele, s
 
 
 ### O que eu aprendi?
+Algumas coisas que foram novas para mim durante essa jornada.
 
 ***CSS***
 - A propriedade ```margin: 0 auto;``` do CSS faz com que o elemento centralize, automaticamente nas margens esquerda e direita.
@@ -41,6 +42,8 @@ O projeto Bikcraft consiste de um website de uma fábrica de bicicletas. Nele, s
 **Geral**
 - Antes de criar o protótipo final do site, criar o wireframe "limpo", sem cores, sem fontes, pensando só na ideia que irá querer, no conteúdo que terá. Deixar para preocupar com o visual depois de feito isso.
 - É interessante usar sempre o Lorem Ipsum em português. Ao escrever o texto final é ideal seguir o número de caracteres que está no Lorem Ipsum do protótipo para manter a definição.
+- Site útil para analatycs: Gerar mapas de calor (gratuito para um projeto):
+[https://www.clicktale.com/](https://www.clicktale.com/)
 
 ***Media queries coringas***
 <p> Estilos para tablets <br>
