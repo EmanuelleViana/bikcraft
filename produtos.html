@@ -15,7 +15,7 @@
     <header class="header">
       <div class="container">
         <a href="index.html" class="grid-4">
-          <img src="img/bikcraft.svg" />
+          <img src="img/bikcraft.svg" alt="Logomarca" />
         </a>
         <nav class="header_menu">
           <ul>
@@ -118,7 +118,7 @@
         <h2 class="subtitulo">
           Orçamento
         </h2>
-        <form id="form_orcamento" action="" class="grid-8 form">
+        <form id="form_orcamento" method="POST" action="./php/enviar-sendgrid.php" class="grid-8 form formphp">
           <label for="nome">Nome</label>
           <input type="text" name="nome" id="nome" />
           <label for="email">Email</label>
@@ -126,8 +126,8 @@
           <label for="telefone">Telefone</label>
           <input type="text" name="telefone" id="telefone" />
           <label for="espec">Especificações</label>
-          <textarea type="text" name="espec" id="espec"></textarea>
-          <button type="submit" class="btn">Enviar</button>
+          <textarea name="espec" id="espec"></textarea>
+          <button type="submit" id="enviar" name="enviar" class="btn">Enviar</button>
         </form>
 
         <div class="orcamento_dados grid-8">
@@ -149,7 +149,7 @@
       </div>
     </section>
 
-    <section class="quebra">
+    <div class="quebra">
       <blockquote class="quote-externo container">
         <p>
           "o verdadeiro segredo da felicidade está em ter genuíno interesse em
@@ -157,7 +157,7 @@
         </p>
         <cite>WILLIAM MORRIS</cite>
       </blockquote>
-    </section>
+    </div>
 
     <footer>
       <div class="footer">
