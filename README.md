@@ -24,7 +24,7 @@ O projeto Bikcraft consiste de um website de uma fábrica de bicicletas. Nele, s
 
 
 ### O que eu aprendi?
-Algumas coisas que foram novas para mim durante essa jornada.
+Algumas coisas que foram novas para mim durante essa jornada e algumas que foram reforçadas.
 
 ***CSS***
 - A propriedade ```margin: 0 auto;``` do CSS faz com que o elemento centralize, automaticamente nas margens esquerda e direita.
