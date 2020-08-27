@@ -23,6 +23,7 @@ img {
     text-transform: uppercase;
     letter-spacing: .1em;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -388,4 +389,20 @@ img {
     width: 100%;
     background: #FEC63E;
     padding: 20px 0;
+}
+
+
+/* Formulario */
+.nao-aparece {
+    visibility: hidden;
+    position: absolute;
+    height: 0px;
+}
+
+#form-sucesso  {
+    color: #40f65e;
+
+}
+#form-erro h2 {
+    color: #f64540;
 }
